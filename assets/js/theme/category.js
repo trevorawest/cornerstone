@@ -17,6 +17,16 @@ export default class Category extends CatalogPage {
         });
     }
 
+    setToSecondImage(cardImgContainer) {
+        let cardImg = cardImgContainer.find('.card-image');
+        cardImg.attr('srcset', cardImg.data('secondimage'));
+    }
+
+    resetToFirstImage(cardImgContainer) {
+        let cardImg = cardImgContainer.find('.card-image');
+        cardImg.attr('srcset', cardImg.data('srcset'));
+    }
+
     makeShopByPriceFilterAccessible() {
         if (!$('[data-shop-by-price]').length) return;
 
@@ -31,6 +41,9 @@ export default class Category extends CatalogPage {
         this.arrangeFocusOnSortBy();
 
         $('[data-button-type="add-cart"]').on('click', (e) => this.setLiveRegionAttributes($(e.currentTarget).next(), 'status', 'polite'));
+
+        $('ul.productGrid li.product .card-figure').on('mouseenter', (e) => this.setToSecondImage($(e.currentTarget)));
+        $('ul.productGrid li.product .card-figure').on('mouseleave', (e) => this.resetToFirstImage($(e.currentTarget)));
 
         this.makeShopByPriceFilterAccessible();
 
