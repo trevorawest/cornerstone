@@ -45,3 +45,13 @@ File 2 added a `product-id` data attribute to the card template for easy retriev
 File 3 has the button HTML
 
 File 4 is all updated translation files. I used Google Translate for *most* of them.
+
+### Bonus Feature
+
+This feature adds a banner with customer information to the category page.
+
+Modified Files:
+
+1. templates\components\common\header.html
+
+File 1 inserts the banner HTML and uses the `customer` theme object to display their name. On the 'Special Items' category, a short message is appended that utilizes the `category` theme object.

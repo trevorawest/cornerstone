@@ -1,3 +1,13 @@
+{{#if customer}}
+    {{#if category}}
+    <div class="banners" data-banner-location="top">
+        <div class="banner">
+            Hello, {{customer.name}}. {{#if category.name '===' 'Special Items'}}I think you'll enjoy browsing {{category.name}}!{{/if}}
+        </div>
+    </div>
+    {{/if}}
+{{/if}}
+        
 <a href="#main-content" class="skip-to-main-link">{{lang 'header.skip_to_main'}}</a>
 {{#if banners.top}}
 <div class="banners" data-banner-location="top">
