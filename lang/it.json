@@ -132,7 +132,9 @@
             "continue_shopping": "Continua a fare acquisti",
             "view_or_edit_cart": "Visualizza o modifica il carrello",
             "you_might_also_like": "Potrebbe piacerti anche"
-        }
+        },
+        "add_all_to_cart": "Aggiungi tutto al carrello",
+        "remove_all_from_cart": "Rimuovi tutti gli elementi"
     },
     "common": {
         "store_credit": "Il tuo credito del negozio è pari a <strong>{store_credit}</strong>. Per utilizzarlo, è sufficiente effettuare un ordine e selezionare il credito del negozio come metodo di pagamento.",

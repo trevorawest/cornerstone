@@ -3,6 +3,14 @@
 {{#if category.products}}
     {{> components/products/filter sort=pagination.category.sort}}
 
+    <button class="button button--primary" data-button-type="add-all-cart">
+        {{lang "cart.add_all_to_cart"}}
+    </button>
+    
+    <button class="button button--primary" data-button-type="remove-all-cart" style="display: none;">
+        {{lang "cart.remove_all_from_cart"}}
+    </button>
+
     <form action="{{urls.compare}}" method='POST' {{#if settings.data_tag_enabled}} data-list-name="Category: {{category.name}}" {{/if}} data-product-compare>
         {{#if theme_settings.product_list_display_mode '===' 'grid'}}
             {{#if settings.data_tag_enabled}}

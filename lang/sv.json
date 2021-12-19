@@ -132,7 +132,9 @@
             "continue_shopping": "Fortsätt handla",
             "view_or_edit_cart": "Visa eller redigera din vagn",
             "you_might_also_like": "Du kanske också gillar"
-        }
+        },
+        "add_all_to_cart": "Lägg till allt i varukorgen",
+        "remove_all_from_cart": "Ta bort alla objekt"
     },
     "common": {
         "store_credit": "Du har <strong>{store_credit}</strong> i butikskredit. Du kan använda den genom att helt enkelt göra en beställning och välja butikskredit som betalningsmetod när det är dags att betala för beställningen.",

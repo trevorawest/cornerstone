@@ -132,7 +132,9 @@
             "continue_shopping": "Weiter einkaufen",
             "view_or_edit_cart": "Warenkorb ansehen oder bearbeiten",
             "you_might_also_like": "Vielleicht mögen Sie auch"
-        }
+        },
+        "add_all_to_cart": "Alles in den Warenkorb legen",
+        "remove_all_from_cart": "Alle Artikel entfernen"
     },
     "common": {
         "store_credit": "Sie haben ein Shop-Guthaben von <strong>{store_credit}</strong>. Wenn Sie das Guthaben verwenden möchten, geben Sie einfach eine Bestellung auf. Sie können dann bei der Bezahlung das Shop-Guthaben als Zahlungsmethode auswählen.",

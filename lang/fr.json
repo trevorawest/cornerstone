@@ -132,7 +132,9 @@
             "continue_shopping": "Continuer mes achats",
             "view_or_edit_cart": "Afficher ou modifier votre panier",
             "you_might_also_like": "Vous aimerez peut-être"
-        }
+        },
+        "add_all_to_cart": "Ajouter tout au panier",
+        "remove_all_from_cart": "Supprimer tous les éléments"
     },
     "common": {
         "store_credit": "Votre avoir disponible s'élève à<strong> {store_credit}.</strong> Pour l'utiliser, il vous suffit de passer votre commande en choisissant l'avoir comme mode de paiement au moment de régler la commande.",

@@ -132,7 +132,9 @@
             "continue_shopping": "Continue Shopping",
             "view_or_edit_cart": "View or edit your cart",
             "you_might_also_like": "You may also like"
-        }
+        },
+        "add_all_to_cart": "Add All to Cart",
+        "remove_all_from_cart": "Remove All Items"
     },
     "common": {
         "store_credit": "You have <strong>{store_credit}</strong> of store credit. To use it, simply place your order and you will be able to choose store credit as the payment method when it comes time to pay for your order.",
